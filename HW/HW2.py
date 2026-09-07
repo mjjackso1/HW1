@@ -23,9 +23,9 @@ language = st.sidebar.selectbox("Output language", ["English", "Spanish", "Frenc
 summary_type = st.sidebar.selectbox(
     "Summary type",
     [
-        "Summarize the page in 100 words",
-        "Summarize the page in 2 connecting paragraphs",
-        "Summarize the page in 5 bullet points",
+        "Summarize in 100 words",
+        "Summarize in 2 connecting paragraphs",
+        "Summarize in 5 bullet points",
     ],
 )
 advanced = st.sidebar.checkbox("Use advanced model")

@@ -1,4 +1,3 @@
-# Adapted from the Lab 4 ChromaDB/OpenAI starter in RAG.pdf.
 import sys
 import sqlite3
 from pathlib import Path
@@ -14,7 +13,7 @@ from bs4 import BeautifulSoup
 from openai import OpenAI
 
 BASE = Path(__file__).resolve().parent
-DATA = BASE / "HW4 SU_Orgs"
+DATA = BASE.parent / "HW4 SU_Orgs"
 DB = BASE / "hw4_chroma"
 EMBED_MODEL = "text-embedding-3-small"
 CHAT_MODEL = "gpt-4o-mini"
